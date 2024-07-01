@@ -1,2 +1,10 @@
 hello !!
+git init
+git clone 'remote repository link'
 git add .
+git commit -m "first"
+
+IN GIT BASH------> git config --global user.email"ritikashetty2004@gmail.com"
+IN GIT BASH------> git config --global user.name"RitikaShetty2004"
+
+git push

@@ -1,0 +1,13 @@
+git checkout -b source-branch
+git add .
+git commit -m "commit123"
+git push
+git status
+git log --oneline
+git checkout main
+git cherry-pick cb0249
+git cherry-pick cb0249^..5ei3ei...2b
+git cherry-pick --continue
+git log --oneline
+
+git cherry-pick cb0249^..5ei3ei...2b
